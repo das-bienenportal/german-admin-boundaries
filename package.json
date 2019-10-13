@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@turf/turf": "^5.1.6",
+    "fastango3": "^3.3.0",
+    "xml-object-stream": "file:xml-object-stream"
+  }
+}

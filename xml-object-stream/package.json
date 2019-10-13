@@ -1,0 +1,28 @@
+{
+  "author": "Sean Hess <sean@i.tv>",
+  "contributors": [
+    "Jamison Dance <jergason@gmail.com> (http://jamisondance.com)"
+  ],
+  "name": "xml-object-stream",
+  "description": "Low-memory streaming xml parser for node.js. Returns each node as an object. Uses node-expat",
+  "version": "0.3.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/idottv/xml-object-stream.git"
+  },
+  "main": "index2.js",
+  "scripts": {
+    "test": "mocha -R spec --compilers coffee:coffee-script test.coffee",
+    "prepublish": "coffee -c index.coffee"
+  },
+  "dependencies": {
+    "node-expat": "2.3.18"
+  },
+  "devDependencies": {
+    "mocha": "~1.4.2",
+    "coffee-script": "1.6.x"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}
